@@ -58,7 +58,7 @@ ul::after {
   clear: both;
 }
 
-li {
+nav li {
   display: block;
   float: left;
 }
@@ -78,14 +78,21 @@ li {
   display: block;
   bottom: 0px;
 }
-a {
+nav a {
   text-decoration: none;
   padding: 1em 0.5em;
   display: block;
   color: #3C97F9;
   font-weight: bold;
 }
-a:hover {
+nav Navlink{
+  text-decoration: none;
+  padding: 1em 0.5em;
+  display: block;
+  color: #3C97F9;
+  font-weight: bold;
+}
+nav a:hover {
   background-color: #3c97f942;	
 
 }

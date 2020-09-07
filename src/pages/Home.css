@@ -1,0 +1,62 @@
+h1,
+figure,
+p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.m h1 {
+  font-size: 2.8em;
+  margin: 0 0 0 0;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  padding-top: 7%;
+}
+
+p {
+  margin: 1em auto;
+}
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+.m {
+  background-image: url("https://cdn.discordapp.com/attachments/223353896620392448/750308293305696307/2020-08-31_22.52.40.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: block;
+}
+.m h3 {
+  text-align: center;
+  font-style: italic;
+}
+.codeContainer {
+  text-align: center;
+  padding-bottom: 200px;
+}
+.newsContainer {
+  margin-top: 30px;
+}
+.article {
+  color: rgb(59, 59, 59);
+  border-color: rgb(224, 224, 224);
+  border-width: 2px;
+  width: 80%;
+  margin: auto;
+}
+.newsContainer h2 {
+  text-align: center;
+}
+.code {
+  color: #fff;
+  margin: auto;
+  font-size: 20px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 2px;
+}
