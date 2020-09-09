@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(39, 39, 39);
+}
+
 .App {
   text-align: center;
 }
@@ -41,8 +45,12 @@ nav {
   font-weight: 300;
   padding: 10 1em;
   z-index: 99;
-  background-color: white;
-  width: 100%;
+  background-color: rgb(39, 39, 39);
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 10px;
+  margin-top: 10px;
+  position: fixed;
 }
 
 ul {

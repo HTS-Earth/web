@@ -23,7 +23,7 @@ p {
   }
 }
 .m {
-  background-image: url("https://cdn.discordapp.com/attachments/223353896620392448/750308293305696307/2020-08-31_22.52.40.png");
+  background-image: url("https://cdn.discordapp.com/attachments/749291990121971723/752214855569637387/2020-09-06_19.12.19.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -31,6 +31,7 @@ p {
   height: 100%;
   color: white;
   display: block;
+
 }
 .m h3 {
   text-align: center;
@@ -42,9 +43,10 @@ p {
 }
 .newsContainer {
   margin-top: 30px;
+  color: white;
 }
 .article {
-  color: rgb(59, 59, 59);
+  color: rgb(255, 255, 255);
   border-color: rgb(224, 224, 224);
   border-width: 2px;
   width: 80%;
