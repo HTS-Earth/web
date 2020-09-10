@@ -17,12 +17,11 @@ export default class Home extends React.Component<HomeProps, HomeState>{
         return(
             <div>
             <div className="m">
-            <h1>HTS Earth</h1>
-            <h3>A real life world inside Minecraft</h3>
+                <h1>HTS Earth</h1>
+                <h3>A real life world inside Minecraft</h3>
             <div className="codeContainer">
                 <code className="code">IP: htsearth.online </code>
             </div>
-            
             </div>
             <div className="newsContainer">
             <h1>Anouncements</h1>

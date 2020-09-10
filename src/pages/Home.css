@@ -10,7 +10,8 @@ p {
   margin: 0 0 0 0;
   font-weight: 700;
   color: rgb(255, 255, 255);
-  padding-top: 7%;
+  padding-top: 10%;
+
 }
 
 p {
@@ -22,8 +23,9 @@ p {
     font-size: 4em;
   }
 }
+
 .m {
-  background-image: url("https://cdn.discordapp.com/attachments/749291990121971723/752214855569637387/2020-09-06_19.12.19.png");
+  background-image: url("https://cdn.discordapp.com/attachments/749291990121971723/752222988614762626/2020-09-06_19.45.28.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -31,20 +33,26 @@ p {
   height: 100%;
   color: white;
   display: block;
-
 }
+
 .m h3 {
   text-align: center;
   font-style: italic;
+
 }
+
 .codeContainer {
   text-align: center;
   padding-bottom: 200px;
 }
+
 .newsContainer {
   margin-top: 30px;
   color: white;
+  width: 75%;
+  margin-left: 12.5%;
 }
+
 .article {
   color: rgb(255, 255, 255);
   border-color: rgb(224, 224, 224);
@@ -52,9 +60,11 @@ p {
   width: 80%;
   margin: auto;
 }
+
 .newsContainer h2 {
   text-align: center;
 }
+
 .code {
   color: #fff;
   margin: auto;
