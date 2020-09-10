@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import News from './pages/News';
+import NewsPublish from './pages/NewsPublish';
 
 function App() {
   console.log(window.location.pathname[3])
@@ -32,9 +33,10 @@ function App() {
           <Route path="/contact">
             <p>about</p>
           </Route>
-          <Route path="/community">          </Route>
-          <Route path="/home" component={Home}/>
-          <Route path="/news" component={News}/>
+          <Route exact path="/community"></Route>
+          <Route exact path="/home" component={Home}/>
+          <Route exact path="/news/publish" component={NewsPublish}/>
+          <Route exact path="/news" component={News}/>
 
           <Redirect from="/" to ="home"></Redirect>
         </Switch>
