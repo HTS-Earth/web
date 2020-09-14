@@ -24,8 +24,8 @@ export default class Home extends React.Component<HomeProps, HomeState>{
             </div>
             </div>
             <div className="newsContainer">
-            <h1>Anouncements</h1>
-            <div className="article">
+                <h1>Anouncements</h1>
+                <div className="article">     
                 <h2>Update 1.0.2</h2>
                 <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis

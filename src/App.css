@@ -102,5 +102,6 @@ nav Navlink{
 }
 nav a:hover {
   background-color: #3c97f942;	
-
+  text-decoration: none;
+  color: #3C97F9;
 }
