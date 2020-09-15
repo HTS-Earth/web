@@ -54,7 +54,7 @@ p {
 }
 
 .newsContainer h1 {
-  font-size: 250%;
+  font-size: 300%;
   margin-bottom: 50px;
 }
 
@@ -64,6 +64,7 @@ p {
   border-width: 2px;
   width: 80%;
   margin: auto;
+  text-align: center;
 }
 
 .newsContainer h2 {
