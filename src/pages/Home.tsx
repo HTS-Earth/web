@@ -29,11 +29,13 @@ export default class Home extends React.Component<HomeProps, HomeState>{
                 <h2>HTS Earth S3 Trailer</h2>   
                 <p>
                 <iframe 
+                    title="Trailer"
                     width="710" 
                     height="400" 
                     src="https://www.youtube.com/embed/WXWIi-UMvqU" 
                     frameBorder="0" 
                     data-allow="autoplay; encrypted-media" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen></iframe>
                 </p>
                 <p style={{textAlign: 'right'}}>2020-09-15</p>
